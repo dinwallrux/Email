@@ -48,75 +48,111 @@
     </style>
 </head>
 <body>
-    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+    <table border="0" width="100%" cellspacing="0" cellpadding="0">
+    <tbody>
         <tr>
             <td align="center" bgcolor="#f4f7f8">
-
-                <table width="100%" cellspacing="0" cellpadding="0" border="0">
-                    <tr>
-                        <td align="center" bgcolor="#f4f7f8">
-
-                            <table width="600" cellspacing="0" cellpadding="0" border="0" class="responsive-table">
-                                <tr>
-                                    <td style="padding-bottom:20px;" >
-                                        <center>
-                                            <p class="space" style="color:#9b9da3;font-family:'Source Sans Pro', sans-serif;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;height:15px;" ></p>
-                                            <p class="extra-small-text" style="color:#87929d;font-size:0.82em;font-family:'Source Sans Pro', sans-serif;letter-spacing:0.2px;line-height:140%;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;" >
-                                                Email ne s’affiche pas correctement?<a href=`https://actifoot.fr/email-news?title={{POSTTITLE}}` target="_blank" style="text-decoration:none;color:#202121;"  rel="noopener noreferrer"> Ouvrez-le </a>dans votre navigateur
-                                            </p>
-                                        </center>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td bgcolor="#fff" style="padding-top:10px;padding-bottom:10px;padding-right:0;padding-left:0;" >
-                                        <center>
-                                            <img class="actifoot-logo" src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1562138587/Email%20Launching/actifoot-logo.png" alt="">
-                                        </center>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td bgcolor="#fff">
-                                        {{POSTIMAGE}}
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td bgcolor="#fff" style="padding-top:15px;padding-bottom:15px;padding-right:40px;padding-left:40px;" >
-                                        <center>
-                                            <h2 style="text-transform:uppercase;font-size:1.7em;color:#2d2d2d;letter-spacing:0.2px;line-height:140%;font-family:'Source Sans Pro', sans-serif;margin-top:0;margin-bottom:20px;margin-right:0;margin-left:0;" >
-                                                <b>{{POSTTITLE}}</b>
-                                            </h2>
-                                        </center>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td bgcolor="#f0f3f8">
-                                        <p style="font-size:1em;color:#575a5d;letter-spacing:0.2px;line-height:140%;font-family:'Source Sans Pro', sans-serif;padding-top:15px;padding-bottom:0px;padding-right:40px;padding-left:40px;" >Bonjour,</p>
-                                        <p style="font-size:1em;color:#575a5d;letter-spacing:0.2px;line-height:140%;font-family:'Source Sans Pro', sans-serif;padding-top:15px;padding-bottom:0px;padding-right:40px;padding-left:40px;" >Un nouvel article a été publié sur le site Actifoot : {{POSTTITLE}}</p>
-                                        <p style="font-size:1em;color:#575a5d;letter-spacing:0.2px;line-height:140%;font-family:'Source Sans Pro', sans-serif;margin-bottom:0px;padding-top:15px;padding-right:40px;padding-left:40px;" >Vous pouvez y accéder via le lien suivant : </p><p style="font-size:1em;color:#575a5d;letter-spacing:0.2px;line-height:140%;font-family:'Source Sans Pro', sans-serif;margin-top:0px;padding-bottom:15px;padding-right:40px;padding-left:40px;" >{{POSTLINK}}</p>
-                                        <p style="font-size:1em;color:#575a5d;letter-spacing:0.2px;line-height:140%;font-family:'Source Sans Pro', sans-serif;margin:0;padding-right:40px;padding-left:40px;" >Bonne lecture et à bientôt!</p><p style="font-size:1em;color:#575a5d;letter-spacing:0.2px;line-height:140%;font-family:'Source Sans Pro', sans-serif;margin: 0;padding-right:40px;padding-left:40px;" >L’équipe ACTIFOOT</p>
-                                        <p style="font-size:1em;color:#575a5d;letter-spacing:0.2px;line-height:140%;font-family:'Source Sans Pro', sans-serif;padding-top:15px;padding-bottom:15px;padding-right:40px;padding-left:40px;" >Vous recevez cet email car vous souhaitiez être avertis lors de la publication de nouveaux contenus sur le site Actifoot, à l’adresse suivante : pseiter@gmail.com</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td bgcolor="#f1f3f4">
-                                        <center>
-                                            <img src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1562140335/Email%20Launching/partner-logo.png" alt="">
-                                        </center>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td style="padding-top:30px;padding-right:40px;padding-left:40px;" >
-                                        <center>
-                                            <p class="medium-text" style="color:#4a4a4a;font-size:0.82em;font-family:'Source Sans Pro', sans-serif;letter-spacing:0.2px;line-height:140%;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;" >Copyright © 2019 Actifoot. Tous droits réservés.</p>
-                                        </center>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
+                <table class="responsive-table" border="0" width="600" cellspacing="0" cellpadding="0">
+                    <tbody>
+                        <tr>
+                            <td style="padding: 10px 0;">
+                                <center>
+                                    <p class="extra-small-text"
+                                    style="color: #87929d; font-size: 0.82em; font-family: 'Source Sans Pro', sans-serif; letter-spacing: 0.2px; line-height: 140%; margin: 0;">
+                                    Email ne s’affiche pas correctement?<a
+                                        style="text-decoration: none; color: #202121;"
+                                        href="https://actifoot.fr/email-news?img=https://actifoot.fr/wp-content/uploads/2019/09/Arbitrage-600x378.jpg&link=https://actifoot.fr/formation-initiale-a-larbitrage/&title=Formation initiale à l’arbitrage&email=myemail.gmail.com"
+                                        target="_blank" rel="noopener noreferrer"> Ouvrez-le </a>dans votre navigateur</p>
+                                </center>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table class="responsive-table" border="0" width="600" cellspacing="0" cellpadding="0"
+                                    bgcolor="#fff">
+                                    <tbody>
+                                        <tr>
+                                            <td style="padding: 10px 0 10px 0;" bgcolor="#fff">
+                                                <center><img class="actifoot-logo"
+                                                        src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1562138587/Email%20Launching/actifoot-logo.png"
+                                                        alt="" /></center>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td bgcolor="#fff">
+                                                <center><img src="https://actifoot.fr/wp-content/uploads/2019/09/Arbitrage-600x378.jpg" width="100%" /></center>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 10px 40px 15px 40px;" bgcolor="#fff">
+                                                <h2
+                                                    style="text-transform: uppercase; font-size: 1.7em; color: #2d2d2d; letter-spacing: 0.2px; line-height: 140%; font-family: 'Source Sans Pro', sans-serif; margin: 0 0 0px 0;">
+                                                    <b>Formation initiale à l’arbitrage</b></h2>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table class="responsive-table" border="0" width="600" cellspacing="0" cellpadding="0"
+                                    bgcolor="#f0f3f8">
+                                    <tbody>
+                                        <tr>
+                                            <td bgcolor="#f0f3f8">
+                                                <p
+                                                    style="font-size: 1em; color: #575a5d; letter-spacing: 0.2px; line-height: 140%; font-family: 'Source Sans Pro', sans-serif; padding: 15px 40px 0px 40px;">
+                                                    Bonjour,</p>
+                                                <p
+                                                    style="font-size: 1em; color: #575a5d; letter-spacing: 0.2px; line-height: 140%; font-family: 'Source Sans Pro', sans-serif; padding: 15px 40px 0px 40px;">
+                                                    Un nouvel article a été publié sur le site Actifoot : Formation initiale à l’arbitrage
+                                                </p>
+                                                <p
+                                                    style="font-size: 1em; color: #575a5d; letter-spacing: 0.2px; line-height: 140%; font-family: 'Source Sans Pro', sans-serif; margin-bottom: 0px; padding-top: 15px; padding-right: 40px; padding-left: 40px;">
+                                                    Vous pouvez y accéder via le lien suivant :</p>
+                                                <p
+                                                    style="font-size: 1em; color: #575a5d; letter-spacing: 0.2px; line-height: 140%; font-family: 'Source Sans Pro', sans-serif; margin-top: 0px; padding-bottom: 15px; padding-right: 40px; padding-left: 40px;">
+                                                    <a href="https://actifoot.fr/formation-initiale-a-larbitrage/" target="_blank"
+                                                        rel="noopener noreferrer">https://actifoot.fr/formation-initiale-a-larbitrage/</a></p>
+                                                <p
+                                                    style="font-size: 1em; color: #575a5d; letter-spacing: 0.2px; line-height: 140%; font-family: 'Source Sans Pro', sans-serif; margin: 0; padding-right: 40px; padding-left: 40px;">
+                                                    Bonne lecture et à bientôt!</p>
+                                                <p
+                                                    style="font-size: 1em; color: #575a5d; letter-spacing: 0.2px; line-height: 140%; font-family: 'Source Sans Pro', sans-serif; margin: 0; padding-right: 40px; padding-left: 40px;">
+                                                    L’équipe ACTIFOOT</p>
+                                                <p
+                                                    style="font-size: 1em; color: #575a5d; letter-spacing: 0.2px; line-height: 140%; font-family: 'Source Sans Pro', sans-serif; padding: 15px 40px 15px 40px;">
+                                                    Vous recevez cet email car vous souhaitiez être avertis lors de la
+                                                    publication de nouveaux contenus sur le site Actifoot, à l’adresse
+                                                    suivante : <a href="mailto:myemail.gmail.com">myemail.gmail.com</a></p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="#f1f3f4">
+                                <center><img
+                                        src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1568960213/Email%20Launching/banner-emailing.png"
+                                        alt="" /></center>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 10px 40px 20px 40px;">
+                                <center>
+                                    <p class="medium-text"
+                                        style="color: #4a4a4a; font-size: 0.82em; font-family: 'Source Sans Pro', sans-serif; letter-spacing: 0.2px; line-height: 140%; margin: 0;">
+                                        Copyright © 2019 Actifoot. Tous droits réservés.</p>
+                                </center>
+                            </td>
+                        </tr>
+                    </tbody>
                 </table>
             </td>
         </tr>
-    </table>
+    </tbody>
+</table>
 </body>
 </html>
