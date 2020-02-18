@@ -3,16 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
     <title>Communiquez les résultats des matchs de vos équipes</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://res.cloudinary.com/dw1zug8d6/raw/upload/v1581568384/fonts/adam.cg%20pro/stylesheet.css">
     <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap');
+        @import url('https://res.cloudinary.com/dw1zug8d6/raw/upload/v1581568384/fonts/adam.cg%20pro/stylesheet.css');
         body{
             margin: 0 !important;
             padding: 0 !important;
             font-family: 'Roboto', sans-serif !important;
             background: #f0f3f8;
+        }
+        p,span,h1,h2,h3,h4,h5,h6{
+            font-family: 'Roboto', sans-serif !important;
+        }
+        h1{
+            font-family: adamcgpro !important;
         }
         @media screen and (max-width: 600px) {
 
@@ -31,8 +39,8 @@
                 font-size: 0.95em;
             }
 
-            table[class="responsive-table-2"] {
-                width: 100% !important;
+            table.responsive-table-2{
+                width: 410px !important;
             }
 
             table[class="center"] {
@@ -42,6 +50,11 @@
 
             img[class="full-width"] {
                 width: 100% !important;
+            }
+
+            div[class="full-width"] {
+                width: 100% !important;
+                float: left !important;
             }
 
             td[class="remove-vertical-padding"] {
@@ -54,9 +67,16 @@
 
         }
 
+        .col-2{
+            display: inline-block; 
+            min-width: 49%; 
+            max-width: 100%; 
+            width: calc((480px - 100%) * 480px);
+        }
+
     </style>
 </head>
-<body>
+<body style="min-width:260px">
 
     <table width="100%" cellspacing="0" cellpadding="0" border="0">
         <tr>
@@ -93,24 +113,24 @@
                     </tr>
                     <tr>
                         <td>
-                            <h1 style="font-family: adamcgpro;font-weight: normal;text-align: center;font-size: 20px;color: #419bf9;margin-top: 40px;margin-bottom: 33px;">Animez la communication de votre club!</h1>
+                            <h1 style="font-family: adamcgpro;font-weight: normal;text-align: center;font-size: 1.500em;color: #419bf9;margin-top: 40px;margin-bottom: 33px;">Animez la communication de votre club!</h1>
                             <div align="center" style="background: url(https://res.cloudinary.com/dw1zug8d6/image/upload/v1581566005/etape-1/layout.png); width: 100%; height: 250px; background-repeat: no-repeat; background-size: cover; background-position: bottom; margin-bottom: 46px;">
                                 <img src="https://res.cloudinary.com/deovmejag/image/upload/v1570177252/Artywiz/illustration-player.png" width="100%" alt="" style="width: 385px;">
                             </div>
                             <div style="width: 540px; margin: auto;">
-                                <p style="font-family: Roboto; font-size: 13px; font-weight: normal; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; margin: 0; color: #607d8b;">ARTYWIZ est l’outil gratuit mis à la disposition des clubs par la LGEF <br>pour créer et animer l’ensemble de leur communication. <br>Imprimés, internet, réseaux sociaux, accessoires de sport… <br>tout est prévu pour professionnaliser la communication de votre club et pour valoriser vos équipes et vos sponsors!</p>
-                                <hr style="margin: 30px 0; background: #D8D8D8; height: 1px; border: none;">
-                                <p style="font-family: Roboto; font-size: 13px; font-weight: normal; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; margin: 0; color: #607d8b;">N’hésitez plus, rendez-vous sur Artywiz.io, et n’oubliez pas que nous sommes à votre disposition par email ou par téléphone si vous avez besoin d’aide dans la prise en main d’Artywiz pour votre club.</p>
+                                <p style="font-family: Roboto; font-size: 1em; font-weight: normal; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; margin: 0; color: #607d8b;">ARTYWIZ est l’outil gratuit mis à la disposition des clubs par la LGEF <br>pour créer et animer l’ensemble de leur communication. <br>Imprimés, internet, réseaux sociaux, accessoires de sport… <br>tout est prévu pour professionnaliser la communication de votre club et pour valoriser vos équipes et vos sponsors!</p>
+                                <br>
+                                <p style="font-family: Roboto; font-size: 1em; font-weight: normal; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; margin: 0; color: #607d8b;">N’hésitez plus, rendez-vous sur <a href="https://artywiz.io/" target="_blank" style="color: #419bf9;">Artywiz.io</a>, et n’oubliez pas que nous sommes à votre disposition par email ou par téléphone si vous avez besoin d’aide dans la prise en main d’Artywiz pour votre club.</p>
                             </div>
                         </td>
                     </tr>
                     <tr>
                         <td align="center">
-                            <div style="width: 540px; margin: 25px auto;">
-                                <table width="100%" height="80" cellspacing="0" cellpadding="0" bgcolor="#2d2d2d" border="0" class="responsive-table">
+                            <div style="width: 540px; height: 120px; margin: 25px auto;">
+                                <table width="100%" height="100%" cellspacing="0" cellpadding="0" bgcolor="#2d2d2d" border="0" class="responsive-table">
                                     <tr>
-                                        <td height="80" style="width: 10%;">
-                                            <img src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1581565129/etape-1/icon-sample.png" alt="">
+                                        <td style="width: 22%;" align="left">
+                                            <img width="100%" src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1581565129/etape-1/icon-sample.png" alt="">
                                         </td>
                                         <td>
                                             <table cellspacing="0" cellpadding="0" border="0" class="responsive-table" style="margin-left: 2%;">
@@ -136,7 +156,7 @@
                     <tr>
                         <td align="center">
                             <div style="width: 540px;">
-                                <p style="text-align: left; font-family: Roboto; font-size: 13px; font-weight: normal; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; margin: 0 0 30px; color: #607d8b;">Remarque : vous pouvez transmettre cet email aux personnes en charge de la communication de votre club!</p>
+                                <p style="text-align: left; font-family: Roboto; font-size: 1em; font-weight: normal; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; margin: 0 0 30px; color: #607d8b;">Remarque : vous pouvez transmettre cet email aux personnes en charge de la communication de votre club!</p>
                             </div>
                         </td>
                     </tr>
@@ -146,7 +166,7 @@
                                 <table width="100%" cellspacing="0" cellpadding="0" border="0" class="responsive-table">
                                     <tr>
                                         <td>
-                                            <p style="font-family: Roboto; font-size: 13px; font-weight: bold; color: #2d2e2e; margin: 0;">Une question? besoin d'aide? <br>Nous sommes là pour vous <br>accompagner!</p>
+                                            <p style="font-family: Roboto; font-size: 1em; font-weight: bold; color: #2d2e2e; margin: 0;">Une question? besoin d'aide? <br>Nous sommes là pour vous <br>accompagner!</p>
                                         </td>
                                         <td align="right">
                                             <img src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1581565202/etape-1/pak-philippe.png" alt="">
@@ -154,10 +174,10 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <p style="font-family: Roboto; font-size: 13px; font-weight: normal; color: #607d8b; margin: 0;">Contactez nous par email <br>ou par téléphone :</p>
+                                            <p style="font-family: Roboto; font-size: 1em; font-weight: normal; color: #607d8b; margin: 0;">Contactez nous par email <br>ou par téléphone :</p>
                                         </td>
                                         <td align="right">
-                                            <p style="font-family: Roboto; font-size: 13px; font-weight: normal; color: #607d8b; margin: 0;">Artywiz <br> <a href="mailto:philipp.seiter@artyplanet.com">philipp.seiter@artyplanet.com</a> <br>tél. +33 607 214 916</p>
+                                            <p style="font-family: Roboto; font-size: 1em; font-weight: normal; color: #607d8b; margin: 0;">Artywiz <br> <a href="mailto:philipp.seiter@artyplanet.com">philipp.seiter@artyplanet.com</a> <br>tél. +33 607 214 916</p>
                                         </td>
                                     </tr>
                                 </table>
@@ -173,7 +193,7 @@
                         <td align="center">
                             <div style="width: 540px;">
                                 <img src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1581565271/etape-1/banner-2.png" alt="" style="width: 100%; margin-bottom: 40px;">
-                                <p style="text-align: left; margin: 0; margin-bottom: 30px; font-family: Roboto; font-size: 1.125em; font-weight: normal; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; color: #607d8b;">ARTYWIZ vous permet de composer votre logo <br>ou de l'importer's'il existe. Une série de documents <br>prêts à l'emploi vous seront automatiquement proposés.</p>
+                                <p style="text-align: left; margin: 0; margin-bottom: 30px; font-family: Roboto; font-size: 1.250em; font-weight: normal; font-stretch: normal; font-style: normal; line-height: normal; letter-spacing: normal; color: #607d8b;">ARTYWIZ vous permet de composer votre logo ou de l'importer's'il existe. <br>Une série de documents prêts à l'emploi vous seront automatiquement proposés.</p>
                             </div>
                         </td>
                     </tr>
@@ -183,37 +203,31 @@
                                 width: 540px;
                                 text-align: left
                             ">
-                                <table
-                                    width="100%"
+                                <div class="col-2">
+                                    <img width="100%" class="full-width" src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1571714644/Email%20Launching/mockup-ex-business-card-1.png"/>
+                                </div>
+                                <div class="col-2">
+                                    <img width="100%" class="full-width" src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1571714644/Email%20Launching/mockup-ex-fb-avatar-1.png"/>
+                                </div>
+                                <div class="col-2">
+                                    <img width="100%" class="full-width" src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1571714644/Email%20Launching/mockup-ex-maillot-1.png"/>
+                                </div>
+                                <div class="col-2">
+                                    <img width="100%" class="full-width" src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1571714644/Email%20Launching/mockup-ex-sport-bag-1.png"/>
+                                </div>
+                                <!-- <table
+                                    width="540"
                                     cellspacing="0"
                                     cellpadding="0"
                                     border="0"
                                     class="responsive-table"
-                                    style=""
                                 >
                                     <tr>
-                                        <td width="50%">
-                                            <div style="margin-right: 2%;">
-                                                <div style="width: 100%;margin-bottom: 4%;">
-                                                    <img width="100%" height="100%" src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1571714644/Email%20Launching/mockup-ex-business-card-1.png"/>
-                                                </div>
-                                                <div style="width: 100%;margin-bottom: 4%;">
-                                                    <img width="100%" height="100%" src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1571714644/Email%20Launching/mockup-ex-maillot-1.png"/>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td width="50%"> 
-                                            <div style="margin-left: 2%;">
-                                                <div style="width: 100%;margin-bottom: 4%;">
-                                                    <img width="100%" height="100%" src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1571714644/Email%20Launching/mockup-ex-fb-avatar-1.png"/>
-                                                </div>
-                                                <div style="width: 100%;margin-bottom: 4%;">
-                                                    <img width="100%" height="100%" src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1571714644/Email%20Launching/mockup-ex-sport-bag-1.png"/>
-                                                </div>
-                                            </div>
+                                        <td>
+                                            
                                         </td>
                                     </tr>
-                                </table>
+                                </table> -->
                             </div>
                         </td>
                     </tr>
@@ -249,7 +263,7 @@
                                                 cursor: pointer;
                                             ">
                                                 <img src="https://res.cloudinary.com/deovmejag/image/upload/v1570502938/Artywiz/social-youtube.png" alt="" style="margin-right: 9px;">
-                                                <span style="text-transform: uppercase; font-family: Roboto; font-size: 0.688em; font-weight: bold; color: #ffffff;">
+                                                <span style="text-transform: uppercase; font-family: Roboto; font-size: 0.750em; font-weight: bold; color: #ffffff;">
                                                     Voir la démo
                                                 </span>
                                             </button>
@@ -270,7 +284,7 @@
                                                 cursor: pointer;
                                             ">
                                                 <img src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1581907068/etape-1/document.png" alt="" style="margin-right: 9px; height: 17px; margin-top: -10px;">
-                                                <span style="text-transform: uppercase; font-family: Roboto; font-size: 0.688em; font-weight: bold; color: #ffffff;">
+                                                <span style="text-transform: uppercase; font-family: Roboto; font-size: 0.750em; font-weight: bold; color: #ffffff;">
                                                     Télécharger le tuto
                                                 </span>
                                             </button>
@@ -283,7 +297,7 @@
                     <tr>
                         <td align="center">
                             <div style="width: 540px;">
-                                <p style="text-align: left; font-family: Roboto; font-size: 13px; font-weight: bold; color: #0073ff; margin: 0 0 20px;">NOS PARTENAIRES</>
+                                <p style="text-align: left; font-family: Roboto; font-size: 1em; font-weight: bold; color: #0073ff; margin: 0 0 20px;">NOS PARTENAIRES</p>
                                 <table width="100%" align="left" cellspacing="0" cellpadding="0" border="0" class="responsive-table" style="padding-bottom: 80px;">
                                     <tr>
                                         <td style="text-align: left; padding-left: 30px;">
@@ -573,8 +587,8 @@
                                     </a>
                                 </div>
                                 <hr style="margin: 28px 0; background: #D8D8D8; height: 1px; border: none;">
-                                <p style="font-family: Roboto; font-size: 13px; font-weight: normal; color: #66798f; margin-top: 0; margin-bottom: 20px;">Copyright ©2020 Artywiz. Tous droids réservés. <br>21 Route de la Wantzenau, F-67800 HOENHEM</p>
-                                <p style="font-family: Roboto; font-size: 13px; font-weight: normal; color: #66798f; margin: 0; margin-bottom: 30px;">se désabonner</p>
+                                <p style="font-family: Roboto; font-size: 1em; font-weight: normal; color: #66798f; margin-top: 0; margin-bottom: 20px;">Copyright ©2020 Artywiz. Tous droids réservés. <br>21 Route de la Wantzenau, F-67800 HOENHEM</p>
+                                <p style="font-family: Roboto; font-size: 1em; font-weight: normal; color: #66798f; margin: 0; margin-bottom: 30px;">se désabonner</p>
                             </div>
                         </td>
                     </tr>
