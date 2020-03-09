@@ -170,9 +170,11 @@
                                                                     <p style="font-family: Roboto; font-size: 10px; font-weight: normal; color: #ffffff; margin-bottom: 5px; margin-top: 0;">
                                                                         Votre mot de passe :
                                                                     </p>
+                                                                    @if($props['password'] != null)
                                                                     <h2 style="font-family: Roboto; font-size: 	20px; font-weight: bold; color: #ffffff; margin: 0;">
-                                                                        JsbhAct4040
+                                                                        {{ $props['password'] }}
                                                                     </h2>
+                                                                    @endif
                                                                 </div>
                                                         <!--[if mso]>
                                                             </td>
