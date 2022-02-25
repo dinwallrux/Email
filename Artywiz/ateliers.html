@@ -26,11 +26,20 @@ a { color: #EB9486; text-decoration: none; }
 .textbutton a { font-family: 'open sans', arial, sans-serif !important;}
 .btn-link a { color:#FFFFFF !important;}
 
+.banner-image {
+    width: 100%;
+    height: 634px;
+}
+
 /*Responsive*/
 @media only screen and (max-width: 640px) {
 body { margin: 0px; width: auto !important; font-family: 'Open Sans', Arial, Sans-serif !important;}
 .table-inner { width: 90% !important;  max-width: 90%!important;}
 .table-full { width: 100%!important; max-width: 100%!important; text-align: center !important;}
+.banner-image {
+    width: 100%;
+    height: 125px;
+}
 }
 
 @media only screen and (max-width: 479px) {
@@ -39,6 +48,10 @@ body { width: auto !important; font-family: 'Open Sans', Arial, Sans-serif !impo
 .table-full { width: 100%!important; max-width: 100%!important; text-align: center !important;}
 /*gmail*/
 u + .body .full { width:100% !important; width:100vw !important;}
+.banner-image {
+    width: 100%;
+    height: 125px;
+}
 }
 </style>
 
@@ -614,15 +627,41 @@ u + .body .full { width:100% !important; width:100vw !important;}
     <module label="CTA" auto>
         <table class="full" align="center" bgcolor="#FFFFFF" width="100%" border="0" cellspacing="0" cellpadding="0">
             <tr>
-                <td align="center" bgcolor="#FFD167" background="https://res.cloudinary.com/dw1zug8d6/image/upload/v1645520599/email/Ateliers/banner-new.png" style="background-size:cover; background-position:center;">
-                    <a href="https://ateliers.artywiz.io/" target="_blank">
-                        <table class="table-inner" width="600" style="max-width: 600px;" border="0" align="center" cellpadding="0" cellspacing="0">
-                            <tr>
-                                <td height="435">
-                                </td>
-                            </tr>
-                        </table>
-                    </a>
+                <td align="center" bgcolor="#FFD167">
+                    <table class="table-inner" width="600" style="max-width: 600px;" border="0" align="center" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td>
+                                <table width="295" class="table-full" border="0" align="left" cellpadding="0"
+                                    cellspacing="0">
+                                    <!--img-->
+                                    <tr>
+                                        <td align="center" style="line-height:0px;">
+                                            <img width="100%" src="https://res.cloudinary.com/dw1zug8d6/image/upload/v1645783998/email/Ateliers/illustration-ateliers.png" alt="">
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table width="295" class="table-full" border="0" align="left" cellpadding="0"
+                                    cellspacing="0">
+                                    <!--img-->
+                                    <tr>
+                                        <td align="center" style="line-height:0px;">
+                                            <a href="https://ateliers.artywiz.io/" target="_blank">
+                                                <h2 style="font-family: Roboto; font-style: normal; font-weight: bold; font-size: 24px; line-height: 28px; text-transform: uppercase; color: #22175B; margin: 15px 0; margin-left: 19px; text-align: left;">Suivez gratuitement <br>nos formations en ligne</h2>
+                                            </a>
+                                            <div style="background: #22175B; padding: 13px 19px; margin-bottom: 15px;">
+                                                <h3 style="font-family: Roboto; font-style: normal; font-weight: bold; font-size: 18px; line-height: 21px; text-transform: uppercase; color: #FFFFFF; margin: 0 0 3px; text-align: left;">Les Ateliers de la comm’</h3>
+                                                <p style="font-family: Roboto; font-style: normal; font-weight: 500; font-size: 13px; line-height: 20px; color: #FFFFFF; margin: 0; text-align: left;">
+                                                    Nous proposons des sessions d’aide à l’utilisation d’ARTYWIZ et à la création des vos premiers documents, chaque lundi de 18h30 à 19h30, pour des groupes de 5 personnes maximum. Inscrivez-vous gratuitement <br><br>
+            
+                                                    à nos formations sur <a href="https://ateliers.artywiz.io/" target="_blank">Ateliers.artywiz.io</a>
+                                                </p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
                 </td>
             </tr>
             <tr>
